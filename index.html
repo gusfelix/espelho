@@ -1,29 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu site</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espelho</title>
 </head>
 <body>
-  <h1>Avaliação</h1>
-  <h2>Como vc avalia sua corrida com o gustavo toretto?</h2>
+    <h1>espelho</h1>
 
-  <label for="nota1"><input id="nota1" type="radio" value="" name="nota">5</label><br>
-  <label for="nota2"><input id="nota2" type="radio" value="" name="nota">5</label><br>
-  <label for="nota3"><input id="nota3" type="radio" value="" name="nota">5</label><br>
-  <label for="nota4"><input id="nota4" type="radio" value="" name="nota">5</label><br>
-  <label for="nota5"><input id="nota5" type="radio" value="" name="nota">5</label><br>
+    <button onclick="abrir()">clique aqui pra se ver</button>
 
-  <h2>Qual a chance de você pegar o motorista?</h2>
+    <br>
 
-  <label for="chance1"><input id="chance1" type="radio" value="" name="chance">Sim</label><br>
-  <label for="chance2"><input id="chance2" type="radio" value="" name="chance">Com ctz</label><br>
-  <label for="chance3"><input id="chance3" type="radio" value="" name="chance">100%</label><br>
-  <label for="chance4"><input id="chance4" type="radio" value="" name="chance">É</label><br>
-
-  <button onclick="alert('obrigado pelo feedback &#128536')">enviar</button>
-
-
+    <div id="img" style="display: none;">
+        <h2>vc ai layla <3 </h2>
+        <img src="gatito.jpg" alt="">
+    </div>
+    
+    <script>
+        function abrir(){
+            document.getElementById("img").style.display = "block"
+        }
+    </script>
 </body>
 </html>
